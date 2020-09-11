@@ -1,10 +1,9 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseUrl: 'https://api.unsplash.com',
-    headers: {
-        Authorization: 'Client-ID 4QniD-Z1a8K9-dC0_FYGWaoLK2bc0dV9XUceAWAc7g4'
-      }
-  
-
+  baseURL: 'https://api.unsplash.com',
+  headers: {
+    Authorization:
+      'Client-ID 2b98c1afb0aed3b3d94a1866bdc3ac013d21a0c86d236a0fee32355c331c0296',
+  },
 });
